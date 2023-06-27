@@ -29,3 +29,5 @@ wsl --shutdown
 wsl --unregister Ubuntu
 
 ```
+
+https://marquesfernandes.com/en/technology/how-to-move-install-wsl-2-from-disk-c-to-another-disk/
