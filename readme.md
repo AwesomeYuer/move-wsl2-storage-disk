@@ -61,13 +61,10 @@ sudo apt update
 
 sudo apt install microsoft-edge-stable
 
-```
 
-WSLg install `microsoft-edge`
+# issue
+# https://learn.microsoft.com/en-us/answers/questions/695866/wsl-gui-error-at-file-io-posix-cc
 
-https://learn.microsoft.com/en-us/answers/questions/695866/wsl-gui-error-at-file-io-posix-cc
-
-```sh
 
 # The only thing that worked is installing vcxsrv on windows (run with access control disabled), and add the following in my ~/.bashrc :
 # 唯一有效的方法是在 Windows 上安装 vcxsrv （在禁用访问控制的情况下运行），并在我的 ~/.bashrc 中添加以下内容：
