@@ -74,3 +74,21 @@ sudo apt install microsoft-edge-stable
 export LIBGL_ALWAYS_INDIRECT=1
 
 ```
+
+Add "allow" rule to Windows firewall for WSL2 network #4585
+
+https://github.com/microsoft/WSL/issues/4585
+
+```powershell
+#Requires -RunAsAdministrator
+
+New-NetFirewallRule -DisplayName "WSL" -Direction Inbound  -InterfaceAlias "vEthernet (WSL)"  -Action Allow
+
+Set-NetFirewallProfile -Profile Private -DisabledInterfaceAliases "vEthernet (WSL)"
+
+Set-NetFirewallProfile -Profile Public -DisabledInterfaceAliases "vEthernet (WSL)"
+
+```
+
+
+
