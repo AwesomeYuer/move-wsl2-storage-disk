@@ -2,6 +2,7 @@ https://medium.com/@carlosrl/why-i-moved-my-ubuntu-distro-wsl2-from-c-to-another
 
 https://learn.microsoft.com/en-us/windows/wsl/basic-commands
 
+https://marquesfernandes.com/en/technology/how-to-move-install-wsl-2-from-disk-c-to-another-disk/
 
 ```powershell
 
@@ -24,9 +25,9 @@ wsl --shutdown
 
 wsl --export Ubuntu d:\wsl\backup\Ubuntu\Ubuntu.2023-06-27.20-43.tar
 
-wsl --import Ubuntu-22.04.2-LTS-2023-06-28 D:\wsl\Storage\Ubuntu-22.04.2-LTS@2023-06-28 d:\wsl\backup\Ubuntu\Ubuntu.2023-06-27.20-43.tar
+wsl --import Ubuntu-22.04.2-LTS-2023-06-28 D:\wsl\Storage\Ubuntu-22.04.2-LTS@2023-06-27 d:\wsl\backup\Ubuntu\Ubuntu.2023-06-27.20-43.tar
 
-Ubuntu-22.04.2-LTS-2023-06-28 config --default-user awesomeyuer
+Ubuntu-22.04.2-LTS-2023-06-27 config --default-user awesomeyuer
 
 wsl --list --verbose
 
@@ -39,9 +40,6 @@ wsl --shutdown
 wsl --unregister Ubuntu
 
 ```
-
-https://marquesfernandes.com/en/technology/how-to-move-install-wsl-2-from-disk-c-to-another-disk/
-
 
 WSLg install `microsoft-edge`
 
