@@ -90,5 +90,21 @@ Set-NetFirewallProfile -Profile Public -DisabledInterfaceAliases "vEthernet (WSL
 
 ```
 
+# fcitx
+
+```sh
+
+sudo apt-get install language-selector-gnome
+
+# sudo dpkg -i /mnt/d/Download/sogoupinyin_4.2.1.145_amd64.deb
+# sudo apt remove sogoupinyin
+
+sudo /usr/bin/gnome-language-selector
+
+sudo fcitx5-configtool
+
+```
+
+
 
 
