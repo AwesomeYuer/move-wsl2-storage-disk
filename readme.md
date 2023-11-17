@@ -4,6 +4,8 @@ https://learn.microsoft.com/en-us/windows/wsl/basic-commands
 
 https://marquesfernandes.com/en/technology/how-to-move-install-wsl-2-from-disk-c-to-another-disk/
 
+https://www.jianshu.com/p/ba5c16f472da
+
 ```powershell
 
 ubuntu config --default-user awesomeyuer
