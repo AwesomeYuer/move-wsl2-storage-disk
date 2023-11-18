@@ -29,6 +29,8 @@ wsl --shutdown
 
 wsl --export Ubuntu d:\wsl\backup\Ubuntu\Ubuntu.2023-06-27.20-43.tar
 
+wsl --export Ubuntu-22.04.2-LTS-2023-06-27 d:\wsl\backup\Ubuntu-22.04.2-LTS-2023-06-27\Ubuntu-22.04.2-LTS-2023-06-27.2023-11-18.10-19.tar
+
 wsl --import Ubuntu-22.04.2-LTS-2023-06-28 D:\wsl\Storage\Ubuntu-22.04.2-LTS@2023-06-27 d:\wsl\backup\Ubuntu\Ubuntu.2023-06-27.20-43.tar
 
 Ubuntu-22.04.2-LTS-2023-06-27 config --default-user awesomeyuer
